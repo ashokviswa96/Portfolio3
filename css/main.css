@@ -206,6 +206,7 @@
 .nav-items {
 	float: left;
 	border-right: 0.5px solid silver;
+	font-size:15px;
 }
 
 .nav-items .nav-links {
