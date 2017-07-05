@@ -10,7 +10,7 @@
 /*The code for bg-image of the page*/
 
 .bg-image {
-	background-image: url('black-background-pattern-light-texture.jpg');
+	background-image: url("http://mepopedia.com/~web103-c/final/final-1025445150/images/black-background-pattern-light-texture.jpg");
 	background-repeat: repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -52,7 +52,7 @@
 
 @media only screen and (max-width:800px) {
 	.bg-black {
-		background-image: url("illuminati.jpg");
+		background-image: url("http://wallpapercave.com/wp/c33pCUp.jpg");
 		background-size: contain;
 		height: 300px;
 		width: 100%;
@@ -118,7 +118,7 @@
 
 @media only screen and (min-width:801px) {
 	.bg-black {
-		background-image: url("illuminati.jpg");
+		background-image: url("http://wallpapercave.com/wp/c33pCUp.jpg");
 		background-size: contain;
 		height: 500px;
 		width: 100%;
