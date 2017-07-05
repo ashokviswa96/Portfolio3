@@ -1,0 +1,223 @@
+/* The font family,color,size for the entire page */
+
+* {
+	font-family: 'Indie Flower', cursive;
+	color: #e6ebef;
+	font-size: 20px;
+}
+
+
+/*The code for bg-image of the page*/
+
+.bg-image {
+	background-image: url('black-background-pattern-light-texture.jpg');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.header {
+	display: flex;
+	width: 100%;
+	margin-top: 0px;
+}
+
+.logo {
+	width: 25%;
+}
+
+.ninja {
+	width: 100px;
+	height: 100px;
+	padding-top: 15px;
+	padding-left: 0;
+}
+
+.font2 {
+	font-family: 'Bellefair', serif;
+}
+
+.title {
+	font-family: 'Bellefair', serif;
+	text-align: right;
+	width: 75%;
+}
+
+.sub-title {
+	text-shadow: 3px 3px 3px #aaa;
+}
+
+
+/* The following code applies only for devices with width less that 801px*/
+
+@media only screen and (max-width:800px) {
+	.bg-black {
+		background-image: url("illuminati.jpg");
+		background-size: contain;
+		height: 300px;
+		width: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		position: relative;
+		background-color: black;
+	}
+	.intro {
+		height: 30px;
+		box-sizing: border-box;
+		padding-top: 100px;
+	}
+}
+
+
+/* The following code applies only for devices with width less that 457px*/
+
+@media only screen and (max-width:456px) {
+	.projects {
+		width: 300px;
+	}
+}
+
+
+/* The following code applies only for devices with viewport width in the range of 457pxand 767px*/
+
+@media only screen and (min-width:457px) and (max-width:767px) {
+	.projects {
+		width: 400px;
+	}
+}
+
+
+/* The following code applies only for devices with viewport width in the range of 768pxand 992px*/
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+	.projects {
+		width: 300px;
+	}
+}
+
+
+/* The following code applies only for devices with viewport width in the range of 993pxand 1200px*/
+
+@media only screen and (min-width:993px) and (max-width:1200px) {
+	.projects {
+		width: 400px;
+	}
+}
+
+
+/* The following code applies only for devices with viewportwidth bigger than 1201*/
+
+@media only screen and (min-width:1201px) {
+	.projects {
+		width: 500px;
+	}
+}
+
+
+/* The following code applies only for devices with viewport width greater than 800px*/
+
+@media only screen and (min-width:801px) {
+	.bg-black {
+		background-image: url("illuminati.jpg");
+		background-size: contain;
+		height: 500px;
+		width: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		position: relative;
+		background-color: black;
+	}
+	.intro {
+		height: 30px;
+		box-sizing: border-box;
+		padding-top: 300px;
+	}
+}
+
+.projects {
+	border: 1px solid;
+	border-radius: 20px;
+	box-shadow: 2px 2px 1px 1px Silver;
+}
+
+a:link {
+	color: #e7dfce text-decoration: none;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #e7dfce;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.contacts {
+	list-style-type: none;
+	text-align: center;
+}
+
+a:hover {
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+
+.footer-row {
+	width: 100%;
+	text-align: center;
+}
+
+.other_headings {
+	border: solid 1px white;
+	border-style: groove;
+	border-radius: 5px;
+	box-sizing: border-box;
+	background-color: Black;
+}
+
+
+/*the css for the navigation bar starts here*/
+
+.nav-bar {
+	border: 1px solid;
+	border-radius: 5px;
+	border-color: white;
+}
+
+.navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.nav-items {
+	float: left;
+}
+
+.nav-items .nav-links {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.nav-items .nav-links:hover:not(.active) {
+	background-color: #111;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+/*The code for navigation bar ends here*/
+
+
+/*The below is for the icons used from FontAwesome*/
+
+[class*="fontawesome-"]:before {
+	font-family: 'FontAwesome', sans-serif;
+	font-size: 30px;
+}
