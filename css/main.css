@@ -241,7 +241,6 @@
 @media only screen and (max-width:550px) {
 	.nav-items {
 		display: inline;
-		padding-right: 3px;
 	}
 	.nav-items:last-child {
 		border-right: 0;
