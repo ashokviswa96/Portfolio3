@@ -218,6 +218,15 @@
 	font-family: 'Gloria Hallelujah', cursive;
 }
 
+@media screen only and (max-width:426px){
+	.nav items .nav-links {
+		padding: 0 0 0 0;
+		font-size: 14px;
+		color:white;
+	}
+	
+}
+
 .nav-items .nav-links:hover:not(.active) {
 	background-color: #111;
 	font-family: 'Gloria Hallelujah', cursive;
