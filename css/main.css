@@ -216,15 +216,16 @@
 	text-decoration: none;
 	text-align: center;
 	font-family: 'Gloria Hallelujah', cursive;
-	font-size:15px;
-
 }
+
+@media only screen and (max-width:427){
 
 .nav-items .nav-links:hover:not(.active) {
 	background-color: #111;
 	font-family: 'Gloria Hallelujah', cursive;
 }
 
+}
 
 /*The code for navigation bar ends here*/
 
